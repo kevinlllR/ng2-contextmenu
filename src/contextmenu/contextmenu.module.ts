@@ -1,12 +1,12 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
-import { BrowserModule }  from '@angular/platform-browser';
+import { CommonModule }  from '@angular/common';
 
 import { ContextmenuComponent } from './contextmenu.component';
 import { ContextmenuDirective } from './contextmenu.directive';
 
 @NgModule({
   imports: [
-    BrowserModule
+    CommonMoDULE
   ],
   declarations: [
     ContextmenuDirective,
